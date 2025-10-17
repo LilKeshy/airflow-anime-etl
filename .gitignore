@@ -21,3 +21,11 @@ unittests.cfg
 # IDEs
 .vscode/
 .idea/
+
+data/*
+!data/.gitkeep
+!data/**/.gitkeep
+
+logs/*
+!logs/.gitkeep
+!logs/**/.gitkeep
