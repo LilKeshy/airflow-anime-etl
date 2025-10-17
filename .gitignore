@@ -1,0 +1,23 @@
+# Logs e dados locais
+logs/
+data/
+__pycache__/
+
+# Configs sensíveis
+.env
+.env.*
+
+# Artefatos do Airflow
+airflow.cfg
+webserver_config.py
+unittests.cfg
+
+# Containers e cache
+*.pid
+*.log
+*.db
+*.sqlite
+
+# IDEs
+.vscode/
+.idea/
